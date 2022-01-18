@@ -33,7 +33,6 @@ const removeLastCat = function () {
 }
 removeLastCat();
 
-const removeFirstCat = function () {
-    return cats.slice(1);
-}
-removeFirstCat();
+
+
+const removeFirstCat = cat => cats.slice(1) ;
